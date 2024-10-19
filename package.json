@@ -1,0 +1,29 @@
+{
+  "type": "AND",
+  "left": {
+    "type": "operand",
+    "value": {
+      "key": "age",
+      "operator": ">",
+      "value": 30
+    }
+  },
+  "right": {
+    "type": "operand",
+    "value": {
+      "key": "salary",
+      "operator": ">",
+      "value": 50000
+    }
+  },
+  "name": "rule-engine_1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
